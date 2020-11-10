@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+	<head>
+		<title>|DIAGON~ALLEY|</title>
+		<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css";>
+	</head>
+	<body>
+		<nav>
+			<ul class="topnav" id="dropDownClick">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#pot">Potions</a></li>
+				<li><a href="#wand">Wands</a></li>
+				<li><a href="#quid">Quidditch</a></li>
+				<li class="topnav-right"><a href="#sup">Sign up</a></li>
+				<li class="topnav-right"><a href="#sin">Sign in</a></li>
+				<li class="icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+			</ul>
+		</nav>
+
+		<div class="container" id="section-1-gradient">
+			<div class="row">
+				<div class="col-6">
+					<div class="leftSide-col">
+						<h1 class="large">Sign in for the Magic!</h1>
+						<h1 class="large">Seriously, really cool magic!</h2>
+					</div>	
+					<form>
+						<div class="leftSide-col">
+							<h2>Username</h2>
+							<input class="inputbox" name="username" type="text" placeholder="username">
+							<h2>Password</h2>
+							<input class="inputbox" name="password" type="text" placeholder="password">
+						</div>
+					</form>
+				</div>
+				<div class="col-6">
+					<div class="rightSide-col">
+					<div class="videoContainer">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ZMeFnwsxh6s" 
+							frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+							allowfullscreen>
+						</iframe>	
+					</div>
+					</div>
+				</div>	
+			</div>	
+		</div>
+
+		<header>
+			<h1 class="header2">The advantages of magic</h1>
+		</header>
+		<div class="contaier">
+			<div class="row">
+				<div class="col-4">
+					<div class="box">
+						<div class="icon">
+							<img src="hedgewig.png">
+						</div>
+						<label>Cool birds tranporting letters!</label>
+						<p>
+							Owls are the best animals to transport your letters! Being so f*cking slow
+							and so absurdly dumb you'll always have to wait a little bit longer for your
+							letters to arrive, making them even more special!
+						</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="box">
+						<div class="icon">
+							<img src="hedgewig.png">
+						</div>
+						<label>Cool birds tranporting letters!</label>
+						<p>
+							Owls are the best animals to transport your letters! Being so f*cking slow
+							and so absurdly dumb you'll always have to wait a little bit longer for your
+							letters to arrive, making them even more special!
+						</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="box">
+						<div class="icon">
+							<img src="hedgewig.png">
+						</div>
+						<label>Cool birds tranporting letters!</label>
+						<p>
+							Owls are the best animals to transport your letters! Being so f*cking slow
+							and so absurdly dumb you'll always have to wait a little bit longer for your
+							letters to arrive, making them even more special!
+						</p>
+					</div>
+				</div>
+
+			</div>	
+			<div class="row space">
+				<div class="col-12">
+					<button class="learnMore">Learn More!</button>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-7">
+					<article>
+						<p>
+						You'd think they're smart animals, but they're really not, they're very very dumb, and
+						always take three times longer than any other smarter bird, like a crow or a raven.
+						</p>
+					</article>
+				</div>
+				<div class="col-5">
+				<div class="harypota">
+					<img src="harypota.png">
+				</div>	
+				</div>
+			</div>
+		</div>
+
+		<footer class="foot">
+			<div class="row">
+				<div class="col-3 footStack">
+					<h1>School</h1>
+					<ul>
+						<li>About</li>
+						<li>Teachers</li>
+						<li>Students</li>
+					</ul>
+				</div>
+				<div class="col-3 footStack">
+					<h1>School</h1>
+					<ul>
+						<li>About</li>
+						<li>Teachers</li>
+						<li>Students</li>
+					</ul>
+				</div>
+				<div class="col-3 footStack">
+					<h1>School</h1>
+					<ul>
+						<li>About</li>
+						<li>Teachers</li>
+						<li>Students</li>
+					</ul>
+				</div>
+				<div class="col-3 footStack">
+					<h1>School</h1>
+					<ul>
+						<li>About</li>
+						<li>Teachers</li>
+						<li>Students</li>
+					</ul>
+				</div>
+
+			</div>
+		</footer>
+			
+		<script>
+			function dropdownMenu(){
+				var x = document.getElementById("dropDownClick");
+				if(x.className === "topnav"){
+					x.className += " responsive";
+					/*Change topnav to topnav.responsive*/
+				}else{
+					x.className = "topnav";
+				}
+			}	
+		</script>
+	</body>
+</html>
